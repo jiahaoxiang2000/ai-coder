@@ -1,13 +1,21 @@
 {
-  "name": "ai-coder",
-  "displayName": "ai-coder",
+  "name": "a-coder",
+  "displayName": "a-coder",
   "description": "ai coder by the llm module.",
-  "version": "0.0.1",
+  "version": "0.0.2",
+  "publisher": "isomo",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jiahaoxiang2000/ai-coder.git"
+  },
+  "icon": "images/icon.png",
   "engines": {
     "vscode": "^1.96.0"
   },
   "categories": [
-    "Other"
+    "Other",
+    "Programming Languages",
+    "Snippets"
   ],
   "activationEvents": [],
   "main": "./dist/extension.js",
