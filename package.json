@@ -16,8 +16,26 @@
       {
         "command": "ai-coder.helloWorld",
         "title": "Hello World"
+      },
+      {
+        "command": "ai-coder.completeCode",
+        "title": "Complete Code using AI"
       }
-    ]
+    ],
+    "configuration": {
+      "title": "AI Coder",
+      "properties": {
+        "ai-coder.deepseekApiKey": {
+          "type": "string",
+          "default": "",
+          "description": "API Key for Deepseek Chat API"
+        }
+      }
+    }
+  },
+  "dependencies": {
+    "axios": "^1.6.0",
+    "node-fetch": "^2.7.0"
   },
   "scripts": {
     "vscode:prepublish": "npm run package",
